@@ -1,6 +1,13 @@
 import react, {Component} from "react";
 import {Button, Form, FormGroup, Label, Input,Alert}from"reactstrap";
 
+class Dashboard extends Component {
+
+  state = {
+    leads: [],
+  }
+}
+
 
 class ListLead extends Component {
     render (){
