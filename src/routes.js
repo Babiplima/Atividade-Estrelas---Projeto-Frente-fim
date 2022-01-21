@@ -6,12 +6,14 @@ import Landing from "./components/pages/Landing";
 
 const Routes = () => (
     <Router>
-        <switch>
-            <Route path='/' component={Login}/>
-            <Route path='/dashboard' component={Dashboard}/>
+        <Switch>
+            <Route>
+            <Route exact path='/' component={Login}/>
+            <PrivateRoute path='/dashboard' component={Dashboard}/>
             <Route exact path='/landing' component={Landing}/>
-        </switch>
-    </Router>
+            </Route>
+        </Switch>
+    </Router>    
 
 );
 

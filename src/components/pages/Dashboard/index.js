@@ -1,12 +1,7 @@
-import react, {Component} from "react";
-import {Button, Form, FormGroup, Label, Input,Alert}from"reactstrap";
+import {Component} from "react";
+import {Table, Button, Form, FormGroup, Label, Input}from"reactstrap";
 
-class Dashboard extends Component {
 
-  state = {
-    leads: [],
-  }
-}
 
 
 class ListLead extends Component {
